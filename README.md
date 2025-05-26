@@ -54,3 +54,6 @@ Follow these steps to get your project up and running:
     DB_DATABASE_SECOND=test_laravel_two
     DB_USERNAME_SECOND=root
     DB_PASSWORD_SECOND=
+4. Migration Command for mysql2 :
+   ```bash
+    php artisan migrate --database=mysql2 --path=database/migrations/second_db_folder

@@ -56,4 +56,5 @@ Follow these steps to get your project up and running:
     DB_PASSWORD_SECOND=
 4. Migration Command for mysql2 :
    ```bash
+    php artisan make:migration create_your_table --path=database/migrations/second_db_folder
     php artisan migrate --database=mysql2 --path=database/migrations/second_db_folder
